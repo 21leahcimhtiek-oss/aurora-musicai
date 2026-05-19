@@ -37,11 +37,17 @@ Copy `.env.example` to `.env.local` and configure:
 - `STRIPE_PRICE_PRO_YEARLY`
 - `DATABASE_URL`
 
-## Pricing
-| Plan | Price |
-|------|-------|
-| Free | $0/mo |
-| Pro  | $8/mo or $69/yr |
+## Commercial Use and Monetization
+BeatMind AI is being prepared as an early-access, validation-pending music discovery product for listeners, playlist curators, creators, and music teams. The repository supports free/no-key-first local evaluation before connecting paid APIs or payment providers.
+
+Pricing, feature limits, support levels, and production claims are placeholders until validated with users. No live checkout links, production secrets, or guaranteed recommendation claims are included.
+
+| Plan | Placeholder |
+|------|-------------|
+| Free / no-key | Local evaluation and playlist workflow review |
+| Starter | Individual discovery workflow placeholder |
+| Pro | Curator and creator workflow placeholder |
+| Enterprise | Team onboarding, integrations, and SLA placeholder |
 
 ## Deployment
 1. Push your changes to GitHub.
@@ -52,3 +58,13 @@ Copy `.env.example` to `.env.local` and configure:
 
 ## License
 MIT (c) 2026 Aurora Rayes LLC
+
+## Aurora Ecosystem Positioning
+This repository is part of the Aurora ecosystem: modular open-source building blocks that compose into production-ready AI products and operational systems.
+
+## No-Key-First
+Core workflows are designed to run in a no-key-first mode so you can evaluate and develop locally before adding external API keys.
+
+## No-Key-First Note
+Default local workflows should work without requiring external API keys; optional integrations can be configured later.
+
